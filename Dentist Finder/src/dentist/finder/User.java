@@ -53,7 +53,7 @@ public class User {
     public String getGender(){return Gender;}
     @Override
     public String toString() {
-        return "User: " + this.firstName + " " + this.lastName + "\n " + this.emailAddress + "|" + this.phone + "| link " + this.Website;
+        return "" + this.firstName + " " + this.lastName + "\n " + this.emailAddress + "|" + this.phone + "| link " + this.Website;
     }
 
     public static class UserBuilder {
